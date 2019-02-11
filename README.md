@@ -1,4 +1,3 @@
-# Valle Test Restful API
 Challenge Webedia Project built with Node.js, Express, MongoDB and more...
 
 ## How to run this API
@@ -19,22 +18,3 @@ Challenge Webedia Project built with Node.js, Express, MongoDB and more...
 - JWT
 - Mlab
 - Babel
-
-## Routes of the API
-
-### User collection endpoints
-
-URL                  |     HTTP(Method)  |      Description      |           Data params              |
----------------------| ----------------- | --------------------- | ---------------------------------- |
-/users/              |       GET         | Select all users      |                                    |
-/users/:id           |       GET         | Select a user by ID   |                                    |
-/users/              |       POST        | Create a user         | username: String, password: String |
-/users/:id           |       PUT         | Update a user by Id   | username: String, email: String    |
-/users/:id           |       DELETE      | Remove a user by Id   |                                    |
-
-### Authentication endpoints
-
-URL                   |     HTTP(Method)  |      Description      |    Data params                     |
-----------------------| ----------------- | --------------------- | ---------------------------------- | 
-/auth/decodeToken     |       GET         | Decode user token     |                                    |
-/auth/signin          |       POST        | Authenticate the user | username: String, password: String |
