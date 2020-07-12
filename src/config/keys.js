@@ -1,6 +1,6 @@
 export default {
     jwt: {
-        secret: 'hes9n0pxcYeJK7A0s0aZ', // Code to verify signature
+        secret: 'xxxxxxxx', // Code to verify signature
         session: { session: false }
     },
     mongodb: { // Database hosted on Mlab
