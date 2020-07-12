@@ -4,7 +4,7 @@ export default {
         session: { session: false }
     },
     mongodb: { // Database hosted on Mlab
-        mlab: 'mongodb://manfred:aidebew02@ds161255.mlab.com:61255/webedia'
+        mlab: 'mongodb://manfred:xxxxxx@xxxxxx.mlab.com:61255/webedia'
     },
     server: { // Setting port
         port: process.env.PORT || 3000
